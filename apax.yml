@@ -9,3 +9,6 @@ variables:
     - "--debug" # Generate debug information for target "1500"
 devDependencies:
   "@ax/sdk": 2311.0.3
+dependencies:
+  "@ax/simatic-1500-motioncontrol-v8": ^3.0.4
+  "@ax/system-timer": ^6.0.94
