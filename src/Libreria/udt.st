@@ -1,5 +1,6 @@
 NAMESPACE udt
     TYPE
+        {S7.extern=ReadWrite}
         interfacciaAsse : STRUCT
             prendi : BOOL;
             posa : BOOL;
@@ -19,6 +20,7 @@ NAMESPACE udt
     END_TYPE
 
     TYPE
+        {S7.extern=ReadWrite}
         interfacciaTavola : STRUCT
             accendi : BOOL;
             vaiHome : BOOL;
