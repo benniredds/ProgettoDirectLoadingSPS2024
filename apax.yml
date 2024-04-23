@@ -3,6 +3,7 @@ version: 0.0.0
 type: app
 targets:
   - "1500"
+  - plcsim
   - llvm
 variables:
   APAX_BUILD_ARGS:
@@ -10,5 +11,5 @@ variables:
 devDependencies:
   "@ax/sdk": 2311.0.3
 dependencies:
-  "@ax/simatic-1500-motioncontrol-v8": ^3.0.4
   "@ax/system-timer": ^6.0.94
+  "@ax/simatic-1500-motioncontrol-v7": ^3.0.4

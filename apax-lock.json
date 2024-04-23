@@ -7,8 +7,8 @@
     "name": "progettosps24",
     "version": "0.0.0",
     "dependencies": {
-      "@ax/simatic-1500-motioncontrol-v8": "^3.0.4",
-      "@ax/system-timer": "^6.0.94"
+      "@ax/system-timer": "^6.0.94",
+      "@ax/simatic-1500-motioncontrol-v7": "^3.0.4"
     },
     "devDependencies": {
       "@ax/sdk": "2311.0.3"
@@ -38,22 +38,22 @@
         "@ax/certificate-management": "1.1.1"
       }
     },
-    "@ax/simatic-1500-motioncontrol-v8": {
-      "name": "@ax/simatic-1500-motioncontrol-v8",
-      "version": "3.0.4",
-      "integrity": "sha512-w34/8c8FNGVk1nAnMNkiLP+Rbpx2qUg9yvOGh03Vv5bvRdQhKwpYgEW1eXTmlZugpatXO06FYVe7YYYtIkBinw==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/simatic-1500-motioncontrol-v8/-/simatic-1500-motioncontrol-v8-3.0.4.tgz",
-      "dependencies": {
-        "@ax/simatic-1500-motioncontrol-native-v8": "5.0.4",
-        "@ax/simatic-1500-motioncontrol-docs": "3.0.4"
-      }
-    },
     "@ax/system-timer": {
       "name": "@ax/system-timer",
       "version": "6.0.94",
       "integrity": "sha512-z2qQVgSKHt78DJZTgIxoAvZdviUzzZmIC3A5bXoWx3ak4fot7D9sa0bKmKp90kP5JqVnkEbl12zYtrBBEVKmNg==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-timer/-/system-timer-6.0.94.tgz",
       "dependencies": {}
+    },
+    "@ax/simatic-1500-motioncontrol-v7": {
+      "name": "@ax/simatic-1500-motioncontrol-v7",
+      "version": "3.0.4",
+      "integrity": "sha512-PbUpK92Snyl2WxsKsO55BHBifqpPYKHUzAV/TfKeQNldh6Y5cWodX5aHzv36CksPi4hkkcTmRKqkUnt3XvXbmw==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/simatic-1500-motioncontrol-v7/-/simatic-1500-motioncontrol-v7-3.0.4.tgz",
+      "dependencies": {
+        "@ax/simatic-1500-motioncontrol-native-v7": "5.0.4",
+        "@ax/simatic-1500-motioncontrol-docs": "3.0.4"
+      }
     },
     "@ax/axunitst": {
       "name": "@ax/axunitst",
@@ -204,11 +204,11 @@
         "@ax/certificate-management-linux-x64": "1.1.1"
       }
     },
-    "@ax/simatic-1500-motioncontrol-native-v8": {
-      "name": "@ax/simatic-1500-motioncontrol-native-v8",
+    "@ax/simatic-1500-motioncontrol-native-v7": {
+      "name": "@ax/simatic-1500-motioncontrol-native-v7",
       "version": "5.0.4",
-      "integrity": "sha512-pE6pd7BCJPK5pr3lmy4e38Oq+fXQJ8PSBwCi9rieOLW5MjRYq4Vq/s793iMrcBxdhFn01/tBTrWE3Wyak2gazQ==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/simatic-1500-motioncontrol-native-v8/-/simatic-1500-motioncontrol-native-v8-5.0.4.tgz",
+      "integrity": "sha512-6zfewALgFcwgZEb2ioFbKW2Z48zWRehMVOnx9NWxhGvp6JBDEvGrmUr7tylTMVtOU44yCocU0WBTS5te5EcX2Q==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/simatic-1500-motioncontrol-native-v7/-/simatic-1500-motioncontrol-native-v7-5.0.4.tgz",
       "dependencies": {
         "@ax/simatic-1500-motioncontrol-native-docs": "5.0.4",
         "@ax/simatic-1500-motioncontrol-stc-plugin": "5.0.4"
@@ -219,20 +219,6 @@
       "version": "3.0.4",
       "integrity": "sha512-0FmBS2BX9NxFiJe1j/dhvy6DhnioAxDmaHrqWDqGq2Y0yzYMd6wAiRdCjTuoP+u/rwkamqzceUGsiy1nhuidCg==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/simatic-1500-motioncontrol-docs/-/simatic-1500-motioncontrol-docs-3.0.4.tgz",
-      "dependencies": {}
-    },
-    "@ax/simatic-1500-motioncontrol-native-docs": {
-      "name": "@ax/simatic-1500-motioncontrol-native-docs",
-      "version": "5.0.4",
-      "integrity": "sha512-YTssW90++GW4RZR5ybhHXlviRZWnVOX+MK2/kCN4nuRbAOqCEF1UiK6vKqkE4scO8Hu/7KhVHCyvWDZREcotTw==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/simatic-1500-motioncontrol-native-docs/-/simatic-1500-motioncontrol-native-docs-5.0.4.tgz",
-      "dependencies": {}
-    },
-    "@ax/simatic-1500-motioncontrol-stc-plugin": {
-      "name": "@ax/simatic-1500-motioncontrol-stc-plugin",
-      "version": "5.0.4",
-      "integrity": "sha512-/Y99tyX2v7i+kM/5ar1kDMoVrFo9cxm4MbxCueRVyqLbVfwYlk/KnRfg10OFVWA2K4WHwLFBJjBUSW3gUyCTww==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/simatic-1500-motioncontrol-stc-plugin/-/simatic-1500-motioncontrol-stc-plugin-5.0.4.tgz",
       "dependencies": {}
     },
     "@ax/axunitst-library": {
@@ -575,60 +561,18 @@
       ],
       "dependencies": {}
     },
-    "@ax/stc-win-x64": {
-      "name": "@ax/stc-win-x64",
-      "version": "6.0.146",
-      "integrity": "sha512-4hTgmIG54MaWhgxBV8gygU19yilVLfieizhUb08aRXz2o1+YKqd6ifgz1NBAT9RVOgnMj0IJcUynuLo998i1zg==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/stc-win-x64/-/stc-win-x64-6.0.146.tgz",
-      "os": [
-        "win32"
-      ],
-      "cpu": [
-        "x64"
-      ],
-      "dependencies": {
-        "@ax/st-docs": "6.0.146"
-      }
-    },
-    "@ax/stc-linux-x64": {
-      "name": "@ax/stc-linux-x64",
-      "version": "6.0.146",
-      "integrity": "sha512-Cy8psrCe2TB+bCZrCzU4qtPxf0UWzCpdmxOCBC4fEVKnKW6MaBOBt85PAbz6MtAriH4boJY9gMMuPspWlKavPA==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/stc-linux-x64/-/stc-linux-x64-6.0.146.tgz",
-      "os": [
-        "linux"
-      ],
-      "cpu": [
-        "x64"
-      ],
-      "dependencies": {
-        "@ax/st-docs": "6.0.146"
-      }
-    },
-    "@ax/st-ls-win-x64": {
-      "name": "@ax/st-ls-win-x64",
-      "version": "3.0.113",
-      "integrity": "sha512-dPj6b2aRhnelCe0BpIcLMLvHbUj2zhfQOtu4jzdZFDPhKICdB9+fTebuYRmP2vna4ogTke22e6f2buwR6VO1Vw==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/st-ls-win-x64/-/st-ls-win-x64-3.0.113.tgz",
-      "os": [
-        "win32"
-      ],
-      "cpu": [
-        "x64"
-      ],
+    "@ax/simatic-1500-motioncontrol-native-docs": {
+      "name": "@ax/simatic-1500-motioncontrol-native-docs",
+      "version": "5.0.4",
+      "integrity": "sha512-YTssW90++GW4RZR5ybhHXlviRZWnVOX+MK2/kCN4nuRbAOqCEF1UiK6vKqkE4scO8Hu/7KhVHCyvWDZREcotTw==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/simatic-1500-motioncontrol-native-docs/-/simatic-1500-motioncontrol-native-docs-5.0.4.tgz",
       "dependencies": {}
     },
-    "@ax/st-ls-linux-x64": {
-      "name": "@ax/st-ls-linux-x64",
-      "version": "3.0.113",
-      "integrity": "sha512-/QUsNMJrMPRVcCrCD7gkw/xl0VvZ8YEJXxQMWGwkWol3JgxiPjWW/fb7EqpzDU+ij45xy85rBdx29MMHQ3Of9Q==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/st-ls-linux-x64/-/st-ls-linux-x64-3.0.113.tgz",
-      "os": [
-        "linux"
-      ],
-      "cpu": [
-        "x64"
-      ],
+    "@ax/simatic-1500-motioncontrol-stc-plugin": {
+      "name": "@ax/simatic-1500-motioncontrol-stc-plugin",
+      "version": "5.0.4",
+      "integrity": "sha512-/Y99tyX2v7i+kM/5ar1kDMoVrFo9cxm4MbxCueRVyqLbVfwYlk/KnRfg10OFVWA2K4WHwLFBJjBUSW3gUyCTww==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/simatic-1500-motioncontrol-stc-plugin/-/simatic-1500-motioncontrol-stc-plugin-5.0.4.tgz",
       "dependencies": {}
     },
     "@ax/system-strings": {
@@ -719,11 +663,60 @@
       ],
       "dependencies": {}
     },
-    "@ax/st-docs": {
-      "name": "@ax/st-docs",
+    "@ax/stc-win-x64": {
+      "name": "@ax/stc-win-x64",
       "version": "6.0.146",
-      "integrity": "sha512-KUs6JC/dWedgnaxH7UrqAOuJm6rKS4gzXTLguqXbtWHKdDKOceIw1yODyjty4iuOm6TkDm2UX4ya6QFC84eBHA==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/st-docs/-/st-docs-6.0.146.tgz",
+      "integrity": "sha512-4hTgmIG54MaWhgxBV8gygU19yilVLfieizhUb08aRXz2o1+YKqd6ifgz1NBAT9RVOgnMj0IJcUynuLo998i1zg==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/stc-win-x64/-/stc-win-x64-6.0.146.tgz",
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "dependencies": {
+        "@ax/st-docs": "6.0.146"
+      }
+    },
+    "@ax/stc-linux-x64": {
+      "name": "@ax/stc-linux-x64",
+      "version": "6.0.146",
+      "integrity": "sha512-Cy8psrCe2TB+bCZrCzU4qtPxf0UWzCpdmxOCBC4fEVKnKW6MaBOBt85PAbz6MtAriH4boJY9gMMuPspWlKavPA==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/stc-linux-x64/-/stc-linux-x64-6.0.146.tgz",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "dependencies": {
+        "@ax/st-docs": "6.0.146"
+      }
+    },
+    "@ax/st-ls-win-x64": {
+      "name": "@ax/st-ls-win-x64",
+      "version": "3.0.113",
+      "integrity": "sha512-dPj6b2aRhnelCe0BpIcLMLvHbUj2zhfQOtu4jzdZFDPhKICdB9+fTebuYRmP2vna4ogTke22e6f2buwR6VO1Vw==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/st-ls-win-x64/-/st-ls-win-x64-3.0.113.tgz",
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "dependencies": {}
+    },
+    "@ax/st-ls-linux-x64": {
+      "name": "@ax/st-ls-linux-x64",
+      "version": "3.0.113",
+      "integrity": "sha512-/QUsNMJrMPRVcCrCD7gkw/xl0VvZ8YEJXxQMWGwkWol3JgxiPjWW/fb7EqpzDU+ij45xy85rBdx29MMHQ3Of9Q==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/st-ls-linux-x64/-/st-ls-linux-x64-3.0.113.tgz",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
       "dependencies": {}
     },
     "@ax/system-math": {
@@ -738,6 +731,13 @@
       "version": "6.0.94",
       "integrity": "sha512-8xn57nA5NfZ6ImTxmFGvzFp7wLL38JdUgjsuEg+xbzs29e8ftvbTCNqaWMVdX05N4QNAqohq2BlEkIyFtDH8Qg==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-datetime/-/system-datetime-6.0.94.tgz",
+      "dependencies": {}
+    },
+    "@ax/st-docs": {
+      "name": "@ax/st-docs",
+      "version": "6.0.146",
+      "integrity": "sha512-KUs6JC/dWedgnaxH7UrqAOuJm6rKS4gzXTLguqXbtWHKdDKOceIw1yODyjty4iuOm6TkDm2UX4ya6QFC84eBHA==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/st-docs/-/st-docs-6.0.146.tgz",
       "dependencies": {}
     }
   },
