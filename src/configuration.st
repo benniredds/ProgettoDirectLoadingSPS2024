@@ -4,6 +4,7 @@ CONFIGURATION MyConfiguration
     PROGRAM P1 WITH Main: MyProgram;
 
     {S7.extern=ReadWrite}
+    {OpcUa=ReadWrite}
     VAR_GLOBAL
         start : BOOL;
         tavolaRotante : interfacciaTavola;

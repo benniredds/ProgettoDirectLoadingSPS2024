@@ -1,5 +1,6 @@
 NAMESPACE udt
     TYPE
+        {OpcUa=ReadWrite}
         {S7.extern=ReadWrite}
         interfacciaAsse : STRUCT
             prendi : BOOL;
@@ -20,6 +21,7 @@ NAMESPACE udt
     END_TYPE
 
     TYPE
+        {OpcUa=ReadWrite}
         {S7.extern=ReadWrite}
         interfacciaTavola : STRUCT
             accendi : BOOL;

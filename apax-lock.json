@@ -8,7 +8,8 @@
     "version": "0.0.0",
     "dependencies": {
       "@ax/system-timer": "^6.0.94",
-      "@ax/simatic-1500-motioncontrol-v7": "^3.0.4"
+      "@ax/simatic-1500-motioncontrol-v7": "^3.0.4",
+      "@ax/opcua-server-config": "^0.7.0"
     },
     "devDependencies": {
       "@ax/sdk": "2311.0.3"
@@ -53,6 +54,16 @@
       "dependencies": {
         "@ax/simatic-1500-motioncontrol-native-v7": "5.0.4",
         "@ax/simatic-1500-motioncontrol-docs": "3.0.4"
+      }
+    },
+    "@ax/opcua-server-config": {
+      "name": "@ax/opcua-server-config",
+      "version": "0.7.0",
+      "integrity": "sha512-qPSpSPhfHrelH0Dqr4Upd8WeTl9RtdC/sMU2WGQaEF7fsmCpqDwrgN4pL83yH78E3KFrr8KaLPPT/8517CGv4A==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/opcua-server-config/-/opcua-server-config-0.7.0.tgz",
+      "dependencies": {
+        "@ax/opcua-server-config-linux-x64": "0.7.0",
+        "@ax/opcua-server-config-win-x64": "0.7.0"
       }
     },
     "@ax/axunitst": {
@@ -219,6 +230,32 @@
       "version": "3.0.4",
       "integrity": "sha512-0FmBS2BX9NxFiJe1j/dhvy6DhnioAxDmaHrqWDqGq2Y0yzYMd6wAiRdCjTuoP+u/rwkamqzceUGsiy1nhuidCg==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/simatic-1500-motioncontrol-docs/-/simatic-1500-motioncontrol-docs-3.0.4.tgz",
+      "dependencies": {}
+    },
+    "@ax/opcua-server-config-linux-x64": {
+      "name": "@ax/opcua-server-config-linux-x64",
+      "version": "0.7.0",
+      "integrity": "sha512-wzAKcTTKJ3JRfqF2f9pq4bbskYuleWjHhYixJvq9DhbvYEWdFJlU8PNZRMQaiMgqYdGZjc6t1UXLumVmaU7ffQ==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/opcua-server-config-linux-x64/-/opcua-server-config-linux-x64-0.7.0.tgz",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "dependencies": {}
+    },
+    "@ax/opcua-server-config-win-x64": {
+      "name": "@ax/opcua-server-config-win-x64",
+      "version": "0.7.0",
+      "integrity": "sha512-ER8e9XFBft/HF64X9BWQrAdQABqjJiZdhAkNK87g46YUV7joEXfjXb9sgxIy3UCyOJ+KOZFj5FZKapeF/q9mQA==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/opcua-server-config-win-x64/-/opcua-server-config-win-x64-0.7.0.tgz",
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "x64"
+      ],
       "dependencies": {}
     },
     "@ax/axunitst-library": {
