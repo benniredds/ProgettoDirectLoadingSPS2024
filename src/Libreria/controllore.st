@@ -1,6 +1,6 @@
 USING udt;
 USING System.Timer;
-Using udt;
+
 NAMESPACE Controllore
     
     FUNCTION_BLOCK controlloreCentrale
